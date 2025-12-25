@@ -1,0 +1,12 @@
+classification_的Loss函数
+    是在经过了y softmax之后，然后和lable进行交叉熵计算，得到的值MSE
+    cross entropy = -sum(y * log(y_hat)) 是一个非常常见的Loss函数，经常和Softmax一起使用
+    cross entropy = -sum(y * log(y_hat)) 的值越小，说明模型的预测越准确
+    cross entropy = -sum(y * log(y_hat)) 的值越大，说明模型的预测越不准确
+
+
+
+cross entropy 与 MSE 的区别
+    他们的区别就看那个图片就可以了。 
+
+
